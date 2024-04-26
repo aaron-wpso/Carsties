@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7FF8198A-981
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "src\AuctionService\AuctionService.csproj", "{25927B04-0D1F-4EFB-B1A5-D69CAE242964}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\SearchService\SearchService.csproj", "{971C72A8-C0FC-4050-BDD9-F94435C7712A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "src\Contracts\Contracts.csproj", "{984E07D4-1750-4ADF-839E-08BA27643FE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,18 @@ Global
 		{25927B04-0D1F-4EFB-B1A5-D69CAE242964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25927B04-0D1F-4EFB-B1A5-D69CAE242964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25927B04-0D1F-4EFB-B1A5-D69CAE242964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{971C72A8-C0FC-4050-BDD9-F94435C7712A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971C72A8-C0FC-4050-BDD9-F94435C7712A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971C72A8-C0FC-4050-BDD9-F94435C7712A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971C72A8-C0FC-4050-BDD9-F94435C7712A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{984E07D4-1750-4ADF-839E-08BA27643FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984E07D4-1750-4ADF-839E-08BA27643FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984E07D4-1750-4ADF-839E-08BA27643FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984E07D4-1750-4ADF-839E-08BA27643FE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{25927B04-0D1F-4EFB-B1A5-D69CAE242964} = {7FF8198A-9811-4E80-8042-83E2968D64E8}
+		{971C72A8-C0FC-4050-BDD9-F94435C7712A} = {7FF8198A-9811-4E80-8042-83E2968D64E8}
+		{984E07D4-1750-4ADF-839E-08BA27643FE9} = {7FF8198A-9811-4E80-8042-83E2968D64E8}
 	EndGlobalSection
 EndGlobal
